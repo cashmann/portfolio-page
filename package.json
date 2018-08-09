@@ -2,7 +2,7 @@
   "name": "portfolio-page",
   "version": "1.0.0",
   "description": "Presentational page for Nathan Cashman",
-  "main": "index.html",
+  "main": "server.js",
   "dependencies": {
     "cors": "^2.8.4",
     "express": "^4.16.3",
