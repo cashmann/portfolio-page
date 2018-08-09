@@ -1,0 +1,118 @@
+header{
+  height: 75px;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  font-family: 'Eczar';
+}
+
+header h1{
+  display: inline-block;
+  margin: 0;
+  padding: 0 20px;
+}
+
+h1 a{
+  color: #0abb92;
+}
+
+nav{
+  float: right;
+  height: 85px;
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li{
+  display: inline-block;
+  margin: 0;
+  padding: 10px 20px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  transition: ease 200ms;
+}
+
+nav a{
+  color: #0abb92;
+  transition: ease 100ms;
+  font-size: 20px;
+}
+
+nav li:hover{
+  background: #0abb92;
+  color: rgba(187, 10, 30, 1);
+  transition: ease 200ms;
+}
+
+main{
+  margin-top: 75px;
+}
+
+.intro{
+  font-family: 'Libre Baskerville';
+  background: radial-gradient(ellipse at center, rgba(76,76,76,1) 0%, rgba(76,76,76,0.98) 16%, rgba(19,19,19,0.9) 100%);;
+  max-width: 50%;
+  max-height: 220px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 300px;
+  transition: ease 400ms;
+  border: 1px solid transparent;
+  border-radius: 20px;
+}
+
+.intro a{
+  color:#ccc;
+}
+
+.intro:hover{
+  text-shadow: 3px 3px 2px rgba(119, 187, 10, 0.5);
+  box-shadow: 3px 3px 2px rgba(36, 36, 36, 0.8);
+  transition: ease 400ms;
+}
+
+.about> section, aside{
+  padding: 0 20px;
+  text-align: center;
+  border-radius: 50%;
+} 
+
+.about h1{
+  padding-top: 40px;
+}
+
+.about h3{
+  padding-top: 10px;
+}
+
+.about section{
+  margin-left: 12.5%;
+  float: left;
+  height: 500px;
+  width: 480px;
+  background: radial-gradient(circle at 100px 100px, #bb2e0a, #000);
+}
+
+.about section div{
+  padding-top: 30px;
+}
+
+.about aside{
+  float: left;
+  clear: right;
+  margin-left: 10%;
+  margin-top: 2%;
+  height: 200px;
+  width: 16%;
+  background: radial-gradient(circle at 33% 33%, #0abb92, #000);
+}
+
+.about a{
+  color: rgb(187, 10, 119);
+}
